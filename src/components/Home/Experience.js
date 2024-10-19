@@ -12,6 +12,14 @@ function Experience() {
         These are the pivotal experiences that have shaped my journey:
         </p>
         <div className="timeline">
+        <div className="timeline-item">
+            <div className="timeline-item-marker"></div>
+            <div className="timeline-item-content">
+            <h2>Data Scientist Intern </h2>
+              <h4>ZekeLabs</h4>
+              <p>September 2024 - Onging</p>
+            </div>
+          </div>
           <div className="timeline-item">
             <div className="timeline-item-content">
               <h2>AI Intern </h2>
