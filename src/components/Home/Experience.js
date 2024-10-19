@@ -24,7 +24,7 @@ function Experience() {
             <div className="timeline-item-content">
               <h2>AI Intern </h2>
               <h4>Devbtyes</h4>
-              <p>August 2024 - Ongoing</p>
+              <p>August 2024 - September 2024</p>
         </div>
             <div className="timeline-item-marker"></div>
           </div>
