@@ -17,7 +17,7 @@ function Experience() {
             <div className="timeline-item-content">
             <h2>Data Scientist Intern </h2>
               <h4>ZekeLabs</h4>
-              <p>September 2024 - Onging</p>
+              <p>September 2024 - December 2024</p>
             </div>
           </div>
           <div className="timeline-item">

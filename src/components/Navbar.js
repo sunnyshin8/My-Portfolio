@@ -16,6 +16,8 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 
+import { Bookshelf } from "./Bookshelf/Bookshelf"; // Fix import statement
+
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
@@ -88,10 +90,7 @@ function NavBar() {
                 to="/certificates"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFileText // use the new icon here
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Certificates
+                <AiOutlineFileText style={{ marginBottom: "2px" }} /> Certificates
               </Nav.Link>
             </Nav.Item>
 
@@ -104,14 +103,15 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
-                href="https://pavit0512.github.io/Personal-Website/"
-                rel="noreferrer"
+                as={Link}
+                to="/bookshelf"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Bookshelf
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>

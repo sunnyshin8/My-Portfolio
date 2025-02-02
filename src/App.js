@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Certificates from "./components/Certificates/Certificates";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Bookshelf from "./components/Bookshelf/Bookshelf";
 // import HousePricePrediction from "./components/Projects/HousePricePrediction";
 // import SAM from "./components/Projects/SAM";
 // import UniversalPowerSupply from "./components/Projects/UniversalPowerSupply";
@@ -53,6 +54,7 @@ function App() {
           <Route path="/certificates" element={<Certificates />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/Bookshelf" element={<Bookshelf />} />
         </Routes>
         <Footer />
       </div>
