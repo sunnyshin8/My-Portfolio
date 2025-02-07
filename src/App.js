@@ -53,8 +53,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/certificates" element={<Certificates />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/" />} />
           <Route path="/Bookshelf" element={<Bookshelf />} />
+          <Route path="*" element={<Navigate to="/" />} />
+          
         </Routes>
         <Footer />
       </div>
