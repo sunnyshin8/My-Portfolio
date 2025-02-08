@@ -991,6 +991,19 @@ button:focus {
   max-width: 300px;
 }
 
+/* --------- */
+/* 404 */
+/* --------- */
+.not-found-header-text {
+  font-size: 2.5em;
+  color: white;
+}
+
+.not-found-text {
+  font-size: 1.5em;
+  color: white;
+}
+
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;

@@ -21,6 +21,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import NotFound from "./components/NotFound";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -54,7 +55,7 @@ function App() {
           <Route path="/certificates" element={<Certificates />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/Bookshelf" element={<Bookshelf />} />
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<NotFound />} />
           
         </Routes>
         <Footer />
